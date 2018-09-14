@@ -1,0 +1,14 @@
+Chapter 1: Functional Programming Basics
+    Push side effects to the edge of our programs
+        Can we think of any places in our code that produce side effects
+        How do we interact with the outside world.
+    A pure function is one that lacks side effects
+    Referential Transparency - Expression is RT if all occurrences of the expression can be replaced with its evaluated value without affecting the meaning of the program using the expression.
+Chapter 2: Getting started with FP in Scala
+    A return type of Unit generally indicates a side effect or code smell (same as with void return in Java)
+    Higher Order Function (HOF) is a function which accepts other functions as arguments
+    Functions in scala are values
+    Instead of using loops, try and use tail recursive functions
+        Can use @annotation.tailrec to have the scala compiler throw an error if our assumption of tail recursion is not true
+        A recursive function that isn't tail recursive has the potential to blow the stack
+

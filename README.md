@@ -1,0 +1,1 @@
+Exercises from functional programming in scala 
